@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:xylophone_app/xylophone_screen.dart';
+import 'package:xylophone_app/views/xylophone_view.dart';
 
 void main() {
   runApp(const XylophoneApp());
@@ -10,9 +10,9 @@ class XylophoneApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: XylophoneScreen(),
+      home: XylophoneView(),
     );
   }
 }
